@@ -65,7 +65,14 @@ body{
     z-index: 2;
 }
 .container2{
-   padding: 40px;
+   padding: 50px;
+}
+.shadow-lg{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    left: 15%;
+    
 }
 
 
