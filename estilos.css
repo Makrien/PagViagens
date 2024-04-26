@@ -1,0 +1,71 @@
+body{
+    background-color: #c7eefb;
+}
+.containerPrincipal{
+   background-color: rgb(249, 250, 207); 
+}
+.carrossel1{
+    display: flex;
+    flex-direction: column;
+    padding-right: 20%;
+    padding-left: 20%;
+         
+}
+.cardSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;  
+    flex-wrap: wrap; 
+    
+}
+.subtitulo{   
+    font-family: "Exo 2", sans-serif;
+    font-size: 1.4em;
+    text-align: center;
+    font-weight: 600;
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 600px;
+    height: 38px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(194, 194, 194);  
+    
+}
+.mb-3{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 80px;
+}
+.titulo{    
+    font-family: "Jersey 20 Charted", sans-serif;
+    font-size: 2.2em;
+    text-align: center;
+}
+.btnMsg{
+    font-weight: bolder;
+    border: 2px solid rgb(85, 85, 85);
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+}
+.btnMsg:hover{
+    transition: 0.5s;
+    background-color: rgba(119, 119, 119, 0.712);
+    transform:perspective();
+    transition-duration: 200ms;
+}
+.container{
+    position: fixed;
+    margin: auto;
+    z-index: 2;
+    left: 15%;
+}
+.container2{
+   padding: 40px;
+}
+
+
+
+     
+
