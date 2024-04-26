@@ -21,6 +21,10 @@
   margin: 2em;
 }
 
+.card-img-top {
+  height: 20em;
+}
+
 .cardSection{
     display: flex;
     flex-direction: row;
@@ -69,6 +73,14 @@
     position: fixed;
     z-index: 2;
 }
+
+.logo {
+  position: inherit;
+  width: 2em;
+  height: 2em;
+  z-index: 3;
+}
+
 .container2{
    padding: 50px;
 }
