@@ -1,296 +1,414 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Viagem & Cia.</title>
-    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="estilos.css">
-    </head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jersey+20+Charted&display=swap" rel="stylesheet">
-    
 
-<body>
-  <div class="containerPrincipal">
-  <div class="container shadow-lg p-3 mb-5 bg-body-tertiary rounded">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Viagem & Cia.</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Escolha seu destino
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="./pacoteEgito.html">Egito</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="./pacotes.html#" target="./pacotes.html#">Grécia</a></li>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Jersey+20+Charted&display=swap"
+    rel="stylesheet"
+  />
+
+  <body>
+    <div class="containerPrincipal">
+      <div class="container shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Viagem & Cia.</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item"></li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Escolha seu destino
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="./pacoteEgito.html"
+                        >Egito</a
+                      >
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="./pacotes.html#"
+                        target="./pacotes.html#"
+                        >Grécia</a
+                      >
+                    </li>
+                  </ul>
+                </li>
               </ul>
-            </li>           
-          </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
-        </div>
-      </div>
-    </nav>
-   </div>   
-
-
-   <div class="container2">   
-    </div>
-
-       <div class="titulo">
-        Viaje para o Egito!
-   </div>
-   
-   <div class="subtitulo">
-        Escolha agora o pacote de viagem certo para você!    
-   </div>
-   
-   <br>
-
-   <div class="carrossel1">
-        <div id="carouselExampleFade" class="carousel slide carousel-fade">
-        <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="./img/egito1.png" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-            <img src="./img/egito2.png" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-            <img src="./img/egito3.png" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-            <img src="./img/egito4.jpg" class="d-block w-100" alt="...">
-        </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-        </button>
-        </div>
-    </div>
-    
-        <br>   
-        
-        <section class="cardSection">
-            
-            <div class="card" style="width: 30rem;">
-                <img src="./card/egito-pkg-standard.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Pacote Standard</h5>
-                  <p class="card-text">Desfrute as suas férias visando a diversão e também sua economia!</p>
-                   <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                Saber mais
-            </button>            
-            
-            <!-- Modal -->
-            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Pacote Standard</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                    
-                    
-                      Dia 1: Chegada ao Cairo
-                      <br><br>
-                      Chegada ao Aeroporto Internacional do Cairo
-                      Transfer para o hotel
-                      Tempo livre para descanso ou explorar a área local
-                      Jantar em um restaurante local
-                      <br><br>
-                      Dia 2: Cairo - Pirâmides de Gizé e Museu Egípcio
-                      <br><br>
-                      Café da manhã no hotel
-                      Visita às Pirâmides de Gizé (Queóps, Quéfren e Miquerinos) e a Esfinge
-                      Almoço em um restaurante local
-                      Visita ao Museu Egípcio no Cairo
-                      Retorno ao hotel e jantar
-                      <br><br>
-                      Dia 3: Cairo - Cidade de Memphis e Saqqara
-                      <br><br>
-                      Café da manhã no hotel
-                      Excursão à antiga cidade de Memphis
-                      Visita à necrópole de Saqqara, incluindo a Pirâmide de Djoser
-                      Almoço durante a excursão
-                      Retorno ao Cairo, tempo livre e jantar
-                      <br><br>
-                      Dia 4: Cairo - Cidade Islâmica e Mercado Khan El Khalili
-                      <br><br>
-                      Café da manhã no hotel
-                      Exploração da Cidade Islâmica do Cairo, incluindo a Mesquita de Muhammad Ali e a Cidadela de Saladino
-                      Almoço em um restaurante local
-                      Passeio pelo mercado de Khan El Khalili para compras e experiências culturais
-                      Retorno ao hotel e jantar
-                      <br><br>
-                      Dia 5: Partida
-                      <br><br>
-                      Café da manhã no hotel
-                      Tempo livre para atividades finais ou compras
-                      Check-out do hotel e transfer para o Aeroporto Internacional do Cairo
-                      Embarque de volta para casa ou próximo destino 
-                      <br><br>
-                      <b>PREÇO DO PACOTE:
-                        R$ 7.899,90
-                        </b> 
-                    </div>
-                    <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-                    <button type="button" class="btn btn-primary">Reservar</button>
-                    </div>
-                    
-                </div>
-                </div>
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  Search
+                </button>
+              </form>
             </div>
-                </div>                
-              </div>  
-              
-              <!-- SEGUNDO CARD-->
-
-              <div class="card" style="width: 30rem;">
-                <img src="./card/egito-pkg-premium.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Pacote Premium</h5>
-                  <p class="card-text">Desfrute do melhor que o paraíso grego pode oferecer com suas paisagens incríveis e com uma cultura milenar!</p>
-                    
-                  <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                        Saiba mais
-                    </button>
-                    
-                    <!-- Modal -->
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                     <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel">Pacote Premium</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                              Dia 1: Chegada ao Cairo
-                              <br><br>
-                              Chegada ao Aeroporto Internacional do Cairo
-                              Transfer para o hotel
-                              Tempo livre para descanso ou explorar a área local
-                              Jantar em um restaurante local
-                              <br><br>
-                              Dia 2: Cairo - Pirâmides de Gizé e Museu Egípcio
-                              <br><br>
-                              Café da manhã no hotel
-                              Visita às Pirâmides de Gizé (Queóps, Quéfren e Miquerinos) e a Esfinge
-                              Almoço em um restaurante local
-                              Visita ao Museu Egípcio no Cairo
-                              Retorno ao hotel e jantar
-                              <br><br>
-                              Dia 3: Cairo - Cidade de Memphis, Saqqara e Voo para Luxor
-                              <br><br>
-                              Café da manhã no hotel
-                              Excursão à antiga cidade de Memphis
-                              Visita à necrópole de Saqqara, incluindo a Pirâmide de Djoser
-                              Almoço durante a excursão
-                              Transfer para o Aeroporto Internacional do Cairo
-                              Voo para Luxor
-                              Check-in no hotel em Luxor e jantar
-                              <br><br>
-                              Dia 4: Luxor - Vale dos Reis, Templo de Karnak e Templo de Luxor
-                              <br><br>
-                              Café da manhã no hotel
-                              Visita ao Vale dos Reis, incluindo a tumba de Tutancâmon
-                              Almoço durante a excursão
-                              Visita ao Templo de Karnak
-                              Visita ao Templo de Luxor
-                              Retorno ao hotel e jantar
-                              <br><br>
-                              Dia 5: Luxor - Templo de Hatshepsut e Colossos de Mêmnon, Voo para Aswan
-                              <br><br>
-                              Café da manhã no hotel
-                              Excursão ao Templo de Hatshepsut e aos Colossos de Mêmnon
-                              Almoço durante a excursão
-                              Transfer para o Aeroporto de Luxor
-                              Voo para Aswan
-                              Check-in no hotel em Aswan e jantar
-                              <br><br>
-                              Dia 6: Aswan - Templo de Philae, Represa de Aswan e Passeio de Feluca
-                              <br><br>
-                              Café da manhã no hotel
-                              Visita ao Templo de Philae, dedicado à deusa Isis
-                              Visita à Represa de Aswan
-                              Almoço durante a excursão
-                              Passeio de feluca pelo Rio Nilo
-                              Retorno ao hotel e jantar
-                              <br><br>
-                              Dia 7: Partida
-                              <br><br>
-                              Café da manhã no hotel
-                              Tempo livre para atividades finais ou compras em Aswan
-                              Check-out do hotel e transfer para o Aeroporto de Aswan
-                              Embarque de volta para casa ou próximo destino
-                              <br><br>
-                              <b>PREÇO DO PACOTE:
-                                R$ 12.899,90
-                                </b> 
-                            </div>
-                            <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-                            <button type="button" class="btn btn-primary">Reservar</button>
-                            </div>
-                            
-                         </div>
-                        </div>
-                    </div>
-                    
-                    </div>
-                 </div>             
-              
-            
-        </section>
-
-        <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">E-mail</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="seuemail@example.com">
           </div>
-          <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Mensagem</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" placeholder="Nos mande uma mensagem!"></textarea>
-            <br>
-            <button class="btnMsg" type="button">Enviar</button>
-          </div>
-
-        <br>
-        <footer style="text-align: center; font-size: x-large; font-weight: bolder;">
-            Viagem & Cia®            
-           <div style="font-family: 'Times New Roman', Times, serif; font-style: italic;">
-            Crazy office, Oh my god street, 00344-042, Bora-bora, French Polynesian
-           </div> 
-        </footer><br><br>
+        </nav>
       </div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body>
+
+      <div class="container2"></div>
+
+      <div class="titulo">Viaje para o Egito!</div>
+
+      <div class="subtitulo">
+        Escolha agora o pacote de viagem certo para você!
+      </div>
+
+      <br />
+
+      <div class="carrossel1">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./img/egito1.png" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="./img/egito2.png" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="./img/egito3.png" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="./img/egito4.jpg" class="d-block w-100" alt="..." />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleFade"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleFade"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <br />
+
+      <section class="cardSection">
+        <div class="card" style="width: 30rem">
+          <img
+            src="./card/egito-pkg-standard.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Pacote Standard</h5>
+            <p class="card-text">
+              Desfrute as suas férias visando a diversão e também sua economia!
+            </p>
+            <!-- Button trigger modal -->
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop"
+            >
+              Saber mais
+            </button>
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="staticBackdrop"
+              data-bs-backdrop="static"
+              data-bs-keyboard="false"
+              tabindex="-1"
+              aria-labelledby="staticBackdropLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">
+                      Pacote Standard
+                    </h1>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    Dia 1: Chegada ao Cairo
+                    <br /><br />
+                    Chegada ao Aeroporto Internacional do Cairo Transfer para o
+                    hotel Tempo livre para descanso ou explorar a área local
+                    Jantar em um restaurante local
+                    <br /><br />
+                    Dia 2: Cairo - Pirâmides de Gizé e Museu Egípcio
+                    <br /><br />
+                    Café da manhã no hotel Visita às Pirâmides de Gizé (Queóps,
+                    Quéfren e Miquerinos) e a Esfinge Almoço em um restaurante
+                    local Visita ao Museu Egípcio no Cairo Retorno ao hotel e
+                    jantar
+                    <br /><br />
+                    Dia 3: Cairo - Cidade de Memphis e Saqqara
+                    <br /><br />
+                    Café da manhã no hotel Excursão à antiga cidade de Memphis
+                    Visita à necrópole de Saqqara, incluindo a Pirâmide de
+                    Djoser Almoço durante a excursão Retorno ao Cairo, tempo
+                    livre e jantar
+                    <br /><br />
+                    Dia 4: Cairo - Cidade Islâmica e Mercado Khan El Khalili
+                    <br /><br />
+                    Café da manhã no hotel Exploração da Cidade Islâmica do
+                    Cairo, incluindo a Mesquita de Muhammad Ali e a Cidadela de
+                    Saladino Almoço em um restaurante local Passeio pelo mercado
+                    de Khan El Khalili para compras e experiências culturais
+                    Retorno ao hotel e jantar
+                    <br /><br />
+                    Dia 5: Partida
+                    <br /><br />
+                    Café da manhã no hotel Tempo livre para atividades finais ou
+                    compras Check-out do hotel e transfer para o Aeroporto
+                    Internacional do Cairo Embarque de volta para casa ou
+                    próximo destino
+                    <br /><br />
+                    <b>PREÇO DO PACOTE: R$ 7.899,90 </b>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Fechar
+                    </button>
+                    <button type="button" class="btn btn-primary">
+                      Reservar
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SEGUNDO CARD-->
+
+        <div class="card" style="width: 30rem">
+          <img
+            src="./card/egito-pkg-premium.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Pacote Premium</h5>
+            <p class="card-text">
+              Desfrute do melhor que o paraíso grego pode oferecer com suas
+              paisagens incríveis e com uma cultura milenar!
+            </p>
+
+            <!-- Button trigger modal -->
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              Saiba mais
+            </button>
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="exampleModal"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">
+                      Pacote Premium
+                    </h1>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    Dia 1: Chegada ao Cairo
+                    <br /><br />
+                    Chegada ao Aeroporto Internacional do Cairo Transfer para o
+                    hotel Tempo livre para descanso ou explorar a área local
+                    Jantar em um restaurante local
+                    <br /><br />
+                    Dia 2: Cairo - Pirâmides de Gizé e Museu Egípcio
+                    <br /><br />
+                    Café da manhã no hotel Visita às Pirâmides de Gizé (Queóps,
+                    Quéfren e Miquerinos) e a Esfinge Almoço em um restaurante
+                    local Visita ao Museu Egípcio no Cairo Retorno ao hotel e
+                    jantar
+                    <br /><br />
+                    Dia 3: Cairo - Cidade de Memphis, Saqqara e Voo para Luxor
+                    <br /><br />
+                    Café da manhã no hotel Excursão à antiga cidade de Memphis
+                    Visita à necrópole de Saqqara, incluindo a Pirâmide de
+                    Djoser Almoço durante a excursão Transfer para o Aeroporto
+                    Internacional do Cairo Voo para Luxor Check-in no hotel em
+                    Luxor e jantar
+                    <br /><br />
+                    Dia 4: Luxor - Vale dos Reis, Templo de Karnak e Templo de
+                    Luxor
+                    <br /><br />
+                    Café da manhã no hotel Visita ao Vale dos Reis, incluindo a
+                    tumba de Tutancâmon Almoço durante a excursão Visita ao
+                    Templo de Karnak Visita ao Templo de Luxor Retorno ao hotel
+                    e jantar
+                    <br /><br />
+                    Dia 5: Luxor - Templo de Hatshepsut e Colossos de Mêmnon,
+                    Voo para Aswan
+                    <br /><br />
+                    Café da manhã no hotel Excursão ao Templo de Hatshepsut e
+                    aos Colossos de Mêmnon Almoço durante a excursão Transfer
+                    para o Aeroporto de Luxor Voo para Aswan Check-in no hotel
+                    em Aswan e jantar
+                    <br /><br />
+                    Dia 6: Aswan - Templo de Philae, Represa de Aswan e Passeio
+                    de Feluca
+                    <br /><br />
+                    Café da manhã no hotel Visita ao Templo de Philae, dedicado
+                    à deusa Isis Visita à Represa de Aswan Almoço durante a
+                    excursão Passeio de feluca pelo Rio Nilo Retorno ao hotel e
+                    jantar
+                    <br /><br />
+                    Dia 7: Partida
+                    <br /><br />
+                    Café da manhã no hotel Tempo livre para atividades finais ou
+                    compras em Aswan Check-out do hotel e transfer para o
+                    Aeroporto de Aswan Embarque de volta para casa ou próximo
+                    destino
+                    <br /><br />
+                    <b>PREÇO DO PACOTE: R$ 12.899,90 </b>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Fechar
+                    </button>
+                    <button type="button" class="btn btn-primary">
+                      Reservar
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">E-mail</label>
+        <input
+          type="email"
+          class="form-control"
+          id="exampleFormControlInput1"
+          placeholder="seuemail@example.com"
+        />
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label"
+          >Mensagem</label
+        >
+        <textarea
+          class="form-control"
+          id="exampleFormControlTextarea1"
+          rows="10"
+          placeholder="Nos mande uma mensagem!"
+        ></textarea>
+        <br />
+        <button class="btnMsg" type="button">Enviar</button>
+      </div>
+
+      <br />
+      <footer
+        style="text-align: center; font-size: x-large; font-weight: bolder"
+      >
+        Viagem & Cia®
+        <div
+          style="
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+          "
+        >
+          Crazy office, Oh my god street, 00344-042, Bora-bora, French
+          Polynesian
+        </div>
+      </footer>
+      <br /><br />
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
